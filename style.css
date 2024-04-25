@@ -17,7 +17,9 @@
     background: linear-gradient(to left top, lightyellow, transparent);
     background-repeat: no-repeat;
 }
-
+.form-a{
+    display:grid;
+}
 .upload {
     align-items: center;
     display: flex;
@@ -194,19 +196,27 @@ padding: 0.25em 0.75em;
 .welcome{
     position: absolute;
     top: 25vh;
-    right: 4vw;
-    min-width: 45vw;
+    right: 20vw;
+    /*min-width: 45vw;
     min-height: 10vh;
+    min-width: 30vmin;
+    min-height: 10vmin;
     /*border: 2px solid rgb(93, 93, 93);*/
-    max-width: 45vw;
+    /*max-width: 45vw;
     max-height: 25vh;
+   /* max-width: 10vmin;
+    max-height: 5vmin;*/
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+.button-54{
+    font-size: max(1vmax, 10px);
+}
 .welText {
     font-family: 'Scope One', serif;
-    font-size: 4em;
+    font-size: max(5vmax, 20px);
+
     color: #fc3735; /* Fallback for older browsers */
     background-image: -webkit-linear-gradient(left, var(--gradient-color-1), var(--gradient-color-2), var(--gradient-color-1));
     background-size: 1600px 200px;
