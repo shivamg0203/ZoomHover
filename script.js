@@ -3,7 +3,14 @@ const imageBox = document.querySelector(".viewWrap");
 const original = document.querySelector(".myimage");
 const magnifier = document.querySelector(".maglass");
 let fileinps = document.querySelector('.fileinput')
+let imgbutton = document.querySelector(".sbt-1")
   
+  imgbutton.addEventListener('click',function(e){
+  e.preventDefault();
+  console.log("submit button");
+});
+
+
 //Change Image files using eventListener 'change'
   fileinps.addEventListener('change', function () {
     console.log("file changed")
