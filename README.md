@@ -11,4 +11,4 @@ View Live Demo on [Link](https://codepen.io/pptpwzrr-the-vuer/pen/QWPVgaV)
    cd ZoomHover
 3. **View File:** Right click the index.htm file to choose "Open With Live Server". Go to "http://localhost:5500/" where the preview is available.
    ```bash
-   http://loclahost:5500/
+   http://localhost:5500/
