@@ -9,6 +9,6 @@ View Live Demo on [Link](https://codepen.io/pptpwzrr-the-vuer/pen/QWPVgaV)
 2. **Install Live Server:** Open folder "ZoomHover" and go to extensions and install live server from "Ritvick Dey".
    ```bash
    cd ZoomHover
-3. **View File:** Right click the index.htm file to choose "Open With Live Server". Go to "http://localhost:5500/" where the preview is available.
+3. **View File:** Right click the index.htm file to choose "Open With Live Server". Go to http://localhost:5500/ZoomHover/index.htm where the preview is available.
    ```bash
-   http://localhost:5500/
+   http://localhost:5500/ZoomHover/index.htm
