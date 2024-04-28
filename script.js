@@ -7,7 +7,7 @@ let imgbutton = document.querySelector(".sbt-1")
   
   imgbutton.addEventListener('click',function(e){
   e.preventDefault();
-  console.log("submit button");
+  //console.log("submit button");
 });
 
 
